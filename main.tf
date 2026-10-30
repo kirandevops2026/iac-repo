@@ -32,7 +32,7 @@ resource "google_compute_instance" "vm_instance" {
 
   boot_disk {
     initialize_params {
-      image = "projects/debian-cloud/global/images/family/debian-11"
+      image = "projects/debian-cloud/global/images/family/debian-13"
       size  = 10
     }
   }
